@@ -4,12 +4,12 @@
 
 Create an `index.html` file and a `style.css` file that reproduces the following:
 
-![exercise-8 goal](../../assets/ex-8-goal.png)
+![exercise-8 goal](../../assets/ex-8-goal.gif)
 
 ### Reference
 
 - Use the `animation` property with 1s duration and _ease-in-out_ easing function
-- Use `translate()` and `scale()` for the transform animations
+- Use `w2()` and `scale()` for the transform animations
 - Use `cursor: pointer` on the button to change the cursor to a hand
 - Use `text-transform` uppercase
 - Check the `box-shadow` css property on google, w3schools has some examples on how it works
@@ -37,6 +37,6 @@ hover
 
 - Make the button do a 360deg rotation when it bounces
 
-![exercise-8 bonus goal](../../assets/ex-8-goal-bonus.png)
+![exercise-8 bonus goal](../../assets/ex-8-goal-bonus.gif)
 
 - Use the syntax `transform:scale() rotate()` in your keyframe

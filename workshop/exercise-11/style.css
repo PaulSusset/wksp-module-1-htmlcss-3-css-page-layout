@@ -1,22 +1,40 @@
 .header {
-
+text-align: center;
 }
 
 .facts {
-
+  border-spacing: 0;
+  border-color: gray;
+  border-width: 1px ;
+  border-style: solid;
+  border-radius: 6px;
+  padding: 10px;
+  width: 100%;
+}
+tbody{
+  justify-items: space-between;
+  align-items: center;
+  width: 100%;
 }
 
-tr {
-
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+tr{
+  margin: 0;
+  height: 26px;
+  padding: 5px;
 }
 
 th {
+  padding:0;
 
 }
 
 td,
 th {
-
+padding: 10;
+border-spacing: 0;
 }
 
 h3 {
@@ -25,9 +43,15 @@ h3 {
 
 /* Using CSS grid */
 .links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  padding: 0;
+
 }
 
 .links > li {
+  list-style-type: none;
 }
 
 /* 
@@ -37,14 +61,31 @@ h3 {
 
 /* 
 .links {
-
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
 }
 
 .links > li {
+  flex: 1 1 0;
+  margin-right: 10px;
+}*/
 
+li:last-child{
+  margin-right: 0;
+} 
+a {
+  text-decoration: none;
+  background-color: skyblue;
+  color: white;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
 }
-*/
-
-.links a {
-
+a:hover{
+  background-color: slateblue;
+  transition: 0.2s ease-in-out;
+  text-decoration: underline;
 }

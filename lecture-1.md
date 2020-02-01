@@ -2,16 +2,6 @@
 
 ---
 
-## [CSS Combinators(]https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator)
-
-Sometimes, we want need to use a more convoluted targeting method. 😜
-
-- Adjacent sibling combinator `div + p`
-- General sibling combinator `div ~ p`
-- Child combinator `div > p`
-- Descendant combinator `div p`
-
----
 
 
 ## CSS Pixels
@@ -119,16 +109,28 @@ Media queries can be used to check many things, such as:
 
 # Advanced topics
 
+
+## [CSS Combinators(]https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator)
+
+Sometimes, we want need to use a more convoluted targeting method. 😜
+
+- Adjacent sibling combinator `div + p`
+- General sibling combinator `div ~ p`
+- Child combinator `div > p`
+- Descendant combinator `div p`
+
+---
+
 ---
 
 ## CSS Pseudo selectors
 
 ### [Pseudo classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes#Index_of_standard_pseudo-classes)
 
-- `:hover`
-- `:focus`
-- `:checked`
-- `:first-child`
+- `:hover` change style when hovering
+- `:focus` (glow when you have a textbox selected)
+- `:checked` for checkboxes or radio buttons
+- `:first-child` (good for lists have the first element be differently styled)
 
 [Try it](https://www.w3schools.com/css/tryit.asp?filename=trycss_link)  |  [Try it](https://www.w3schools.com/css/tryit.asp?filename=trycss_first-child2)
 
@@ -149,7 +151,7 @@ Media queries can be used to check many things, such as:
 - Rotate
 - Scale
 
-[Try it](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_transform) | [Trnasform Generator](https://html-css-js.com/css/generator/transform/)
+[Try it](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_transform) | [Transform Generator](https://html-css-js.com/css/generator/transform/)
 
 ---
 
