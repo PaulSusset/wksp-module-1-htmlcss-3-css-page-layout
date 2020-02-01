@@ -1,0 +1,13 @@
+body{
+    display:grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    margin:0;
+    
+}
+img{
+    width: 100%;
+    outline: solid 1px red;
+}
+.one{
+    grid-row-start: 1;
+}

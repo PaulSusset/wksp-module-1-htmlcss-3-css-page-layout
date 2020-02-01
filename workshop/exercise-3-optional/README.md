@@ -20,7 +20,7 @@ Your HTML should have the following structure:
 
 <body>
     <div class="container">
-        
+
     </div>
 </body>
 

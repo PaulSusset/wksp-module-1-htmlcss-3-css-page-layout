@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    display: grid;
+}
+p{
+    font-size: 48px;
+}
+header{
+    background-color: rgb(56, 56, 56);
+    color: white;
+    height: 50px;
+}
+
+footer{
+    background-color: rgb(56, 56, 56);
+    color: white;
+    height: 50px;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
